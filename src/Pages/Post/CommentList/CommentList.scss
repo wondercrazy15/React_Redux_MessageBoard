@@ -1,0 +1,52 @@
+#CommentList {
+    .card-title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .comment-list-main {
+        max-height: 497px;
+        overflow-y: auto;
+        transform: rotateX(180deg);
+        -moz-transform: rotateX(180deg);
+        -webkit-transform: rotateX(180deg);
+        -ms-transform: rotateX(180deg);
+        -o-transform: rotateX(180deg);
+        .comment-list-sub{
+            transform:rotateX(180deg);
+            -moz-transform:rotateX(180deg); /* Mozilla */
+            -webkit-transform:rotateX(180deg); /* Safari and Chrome */
+            -ms-transform:rotateX(180deg); /* IE 9+ */
+            -o-transform:rotateX(180deg); /* Opera */
+        }
+        .list-group-item {
+            z-index: 2;
+            color: #000;
+            background-color: #bbbbbb4d;
+            border-color: #ffffff;
+
+            h5 {
+                font-weight: 400;
+                color: #4285f4;
+            }
+
+            p {
+                font-weight: 400;
+                color: #747373;
+            }
+
+            small {
+                color: #aa66cc;
+            }
+        }
+        .comment-and-reply{
+        .reply-list{
+            margin-top: 15px;
+            .list-group-item{
+                border-color: transparent;
+            }
+        }
+
+    }
+    }
+}

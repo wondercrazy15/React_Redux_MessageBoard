@@ -1,0 +1,15 @@
+#CommentBox{
+    margin-top: 20px;
+    border: 1px solid #eaeaea;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background: #fff;
+    .box-title{
+        font-weight: 400;
+    }
+    .action-view{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}

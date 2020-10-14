@@ -1,0 +1,22 @@
+#Card {
+    .main-card {
+        width: 100%;
+        padding: 30px;
+
+        .comment-text-field {
+            .md-form {
+                margin-bottom: 0;
+
+                textarea {
+                    border-radius: 5px;
+                }
+            }
+        }
+        .post-action-view{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+#Login {
+    margin: auto;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+    max-width: 100%;
+
+    .card {
+        min-width: 500px;
+
+        .modal-body-main {
+
+            max-width: 700px;
+            margin: auto;
+
+            .md-form {
+                min-width: 350px;
+                margin-right: 30px;
+            }
+        }
+    }
+}
