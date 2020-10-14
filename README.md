@@ -11,9 +11,6 @@ This project is used React.js , Redux, Scss, Axios, MDB Design functionalitys.
 
 ## Folder Structure
 ```
-/
-  README.md
-  package.json
   public/
     index.html
     favicon.ico
@@ -63,11 +60,13 @@ This project is used React.js , Redux, Scss, Axios, MDB Design functionalitys.
     index.js
     registerServiceWorker.js
     Routes.js
-    .gitignore
+  .gitignore
+  README.md
+  package.json
 
 ```
 
-Step:
+## Project Guide:
 - please follow below steps to run React_Redux_MessageBoard project
 
 - clone app `git clone https://github.com/wondercrazy15/React_Redux_MessageBoard.git`
