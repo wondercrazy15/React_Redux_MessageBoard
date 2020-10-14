@@ -1,0 +1,7 @@
+.pagination{
+    align-items: center;
+    justify-content: center;
+    .page-item.active .page-link {
+        background-color: #3f51b5 !important;
+    }
+}

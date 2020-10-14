@@ -1,0 +1,55 @@
+#Header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+
+    .navbar-dark {
+        .navbar-brand {
+            color: #fff;
+            font-weight: 400;
+            text-transform: capitalize;
+
+            .logo-style {
+                height: 55px;
+                margin: -10px 0px;
+            }
+        }
+    }
+
+    .search-nav-item {
+        margin-left: 60px;
+
+        .form-control {
+            min-width: 600px;
+            max-width: 100%;
+        }
+    }
+
+
+    .dropdown {
+        .dropdown-menu {
+            transform: translate3d(-120px, 40px, 0px) !important;
+        }
+    }
+
+    .login-user {
+
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+        color: #fff;
+        font-weight: initial;
+
+        img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+    }
+}

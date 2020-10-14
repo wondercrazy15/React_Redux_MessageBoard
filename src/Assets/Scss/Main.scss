@@ -1,0 +1,13 @@
+      .main-route {
+        min-height: 795px;
+        padding: 30px;
+        overflow-x: hidden;
+        z-index: 0;
+        margin-top: 60px;
+      }
+
+      .form-control {
+        &:focus {
+          border-color: #3f51b5;
+        }
+      }
